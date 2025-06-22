@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vajrala Sindhu | Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Vajrala Sindhu</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+      <button id="toggleTheme">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m a frontend developer who builds responsive and interactive web apps
+        using HTML, CSS & JavaScript.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><a class="project-link" href="todo.html">To‑Do List App (LocalStorage)</a></li>
+        <li><a class="project-link" href="products.html">Product Generator + Filter/Sort</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form onsubmit="alert('Thanks! I’ll be in touch.'); return false;">
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>© 2025 Vajrala Sindhu</footer>
+</body>
+</html>
